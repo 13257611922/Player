@@ -12,17 +12,14 @@
       <div class="tab-bar">
         <!-- 搜索结果 -->
         <router-link to="/results" class="bar-item active">搜索结果</router-link>
-
-        <a class="bar-item">歌曲播放</a>
-        <a class="bar-item">mv</a>
-        <a class="bar-item">歌曲评论&gt;</a>
+        <router-link to="/player" class="bar-item">歌曲播放</router-link>
+        <router-link to="/mv" class="bar-item">mv</router-link>
+        <router-link to="/comment" class="bar-item">歌曲评论&gt;</router-link>
         <a class="bar-item">推荐歌曲</a>
       </div>
       <!-- 对应的内容区域 -->
       <div class="tab-content">
-        <router-view>
-
-        </router-view>
+        <router-view></router-view>
       </div>
     </div>
   </div>
