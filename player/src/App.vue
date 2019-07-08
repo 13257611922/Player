@@ -2,19 +2,19 @@
   <div id="player">
     <h2 class="title">黑云音乐</h2>
     <div class="search">
-      <input type="text"  />
+      <input type="text" />
       <button >
         <span class="iconfont icon-search"></span>
       </button>
     </div>
-    <div class="tab-wrapper">
+    <div class="tab-wrapper" >
       <!-- tab栏 -->
       <div class="tab-bar">
         <!-- 搜索结果 -->
-        <router-link to="/results" class="bar-item active">搜索结果</router-link>
-        <router-link to="/player" class="bar-item">歌曲播放</router-link>
-        <router-link to="/mv" class="bar-item">mv</router-link>
-        <router-link to="/comment" class="bar-item">歌曲评论&gt;</router-link>
+        <router-link to="/results" class="bar-item" active-class="active">搜索结果</router-link>
+        <router-link to="/player" class="bar-item" active-class="active">歌曲播放</router-link>
+        <router-link to="/mv" class="bar-item" active-class="active">mv</router-link>
+        <router-link to="/comment" class="bar-item" active-class="active">歌曲评论&gt;</router-link>
         <a class="bar-item">推荐歌曲</a>
       </div>
       <!-- 对应的内容区域 -->
@@ -27,7 +27,7 @@
 
 <script>
 export default {
-  name: "app"
+  name: "app",
 };
 </script>
 
